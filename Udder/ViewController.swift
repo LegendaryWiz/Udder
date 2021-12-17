@@ -18,6 +18,11 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         print("new stuff")
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        //
+    }
 
 
 }
