@@ -23,6 +23,11 @@ class ViewController: UIViewController {
         super.viewDidDisappear(animated)
         //
     }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        //
+    }
 
 
 }
